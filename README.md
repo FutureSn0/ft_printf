@@ -29,6 +29,16 @@ There are some cases where you may want to manually compile some files. Inlcude 
 gcc <source files> ft_printf/libftprintf.a
 ```
 
+Additional makefile rules
+
+`make` - Compile ft_printf files.
+
+`make clean` - Delete all .o (object files) files.
+
+`make fclean` - Delete all .o (object file) and .a (executable) files.
+
+`make re` - Reblilds project by using rules `fclean` + `all`.
+
 # Subject
 ### Mandatory
  - %c - Print a single character;
